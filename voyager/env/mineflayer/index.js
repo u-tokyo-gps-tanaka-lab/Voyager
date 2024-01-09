@@ -16,7 +16,6 @@ const Chests = require("./lib/observation/chests");
 const { plugin: tool } = require("mineflayer-tool");
 
 let bot = null;
-
 const app = express();
 
 app.use(bodyParser.json({ limit: "50mb" }));
@@ -45,11 +44,12 @@ app.post("/start", (req, res) => {
     bot.on("kicked", onDisconnect);
 
     // mounting will cause physicsTick to stop
-    bot.on("mount", () => {
+        bot.on("mount", () => {
         bot.dismount();
     });
-
+    console.log("11111");
     bot.once("spawn", async () => {
+        bot.chat("22222", console.log);
         bot.removeListener("error", onConnectionFailed);
         let itemTicks = 1;
         if (req.body.reset === "hard") {
@@ -81,7 +81,7 @@ app.post("/start", (req, res) => {
                 }
             }
         }
-
+        bot.chat('33333', console.log);
         if (req.body.position) {
             bot.chat(
                 `/tp @s ${req.body.position.x} ${req.body.position.y} ${req.body.position.z}`
@@ -94,7 +94,7 @@ app.post("/start", (req, res) => {
         ) {
             bot.iron_pickaxe = true;
         }
-
+        console.log("44444");
         const { pathfinder } = require("mineflayer-pathfinder");
         const tool = require("mineflayer-tool").plugin;
         const collectBlock = require("mineflayer-collectblock").plugin;
@@ -105,7 +105,7 @@ app.post("/start", (req, res) => {
         bot.loadPlugin(collectBlock);
         bot.loadPlugin(pvp);
         bot.loadPlugin(minecraftHawkEye);
-
+        console.log("55555");
         // bot.collectBlock.movements.digCost = 0;
         // bot.collectBlock.movements.placeCost = 0;
 
@@ -133,6 +133,7 @@ app.post("/start", (req, res) => {
         bot.chat("/gamerule keepInventory true");
         bot.chat("/gamerule doDaylightCycle false");
     });
+    console.log('66666');
 
     function onConnectionFailed(e) {
         console.log(e);
@@ -222,7 +223,7 @@ app.post("/step", async (req, res) => {
         }
     }
 
-    bot.on("physicTick", onTick);
+    bot.on("physicTicks", onTick);
 
     // initialize fail count
     let _craftItemFailCount = 0;
@@ -248,7 +249,7 @@ app.post("/step", async (req, res) => {
         response_sent = true;
         res.json(bot.observe());
     }
-    bot.removeListener("physicTick", onTick);
+    bot.removeListener("physicTicks", onTick);
 
     async function evaluateCode(code, programs) {
         // Echo the code produced for players to see it. Don't echo when the bot code is already producing dialog or it will double echo
