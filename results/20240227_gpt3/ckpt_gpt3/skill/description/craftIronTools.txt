@@ -1,0 +1,3 @@
+async function craftIronTools(bot) {
+    // The function crafts iron tools by first checking the player's inventory for iron ingots and sticks. If there are not enough iron ingots, it explores to find iron ore, mines it, locates a furnace, smelts the ore into ingots. Then, it checks for sticks and crafts them if needed. Next, it ensures the presence of a crafting table by exploring if necessary. Finally, it crafts an iron pickaxe, axe, and shovel, notifying the player after each successful crafting action.
+}

@@ -1,0 +1,3 @@
+async function equipIronPickaxe(bot) {
+    // The function equips an iron pickaxe from the bot's inventory to the hand slot for immediate use.
+}

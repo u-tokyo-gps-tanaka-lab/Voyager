@@ -1,0 +1,3 @@
+async function mineCoalOre(bot) {
+    // The function is focused on mining a single coal ore block using a wooden pickaxe. It starts by searching for a coal ore block within a maximum distance of 32 blocks. If a coal ore block is found, it equips a wooden pickaxe from the inventory and proceeds to mine the coal ore block. If no coal ore block is found within the search range, it sends a message indicating the absence of coal ore.
+}

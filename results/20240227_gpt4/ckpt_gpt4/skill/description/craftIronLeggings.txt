@@ -1,0 +1,3 @@
+async function craftIronLeggings(bot) {
+    // The function crafts iron leggings by first placing a furnace at a suitable position adjacent to the bot's current location, then smelts raw iron using coal as fuel. Afterward, it places a crafting table at another suitable position near the bot. Finally, it crafts a pair of iron leggings from the smelted iron ingots.
+}

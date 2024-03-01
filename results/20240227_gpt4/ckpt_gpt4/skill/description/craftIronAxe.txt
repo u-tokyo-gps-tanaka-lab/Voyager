@@ -1,0 +1,3 @@
+async function craftIronAxe(bot) {
+    // The function is about crafting an iron axe by first placing a crafting table at a specific position near the bot's entity. Then, it proceeds to craft an iron axe using iron ingots and sticks.
+}

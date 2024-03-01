@@ -1,0 +1,3 @@
+async function killThreeSheep(bot) {
+    // The function equips an iron sword and proceeds to kill three sheep. It iterates three times to kill each sheep, displaying a message after each kill with the number of sheep killed so far.
+}

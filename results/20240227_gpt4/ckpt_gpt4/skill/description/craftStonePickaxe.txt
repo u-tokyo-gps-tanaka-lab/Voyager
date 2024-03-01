@@ -1,0 +1,3 @@
+async function craftStonePickaxe(bot) {
+    // The function crafts a stone pickaxe by first mining 3 stone blocks. It then checks if the bot has a crafting table; if not, it crafts one. After finding a suitable position, it places the crafting table and proceeds to craft a stone pickaxe using the mined stone blocks and sticks.
+}

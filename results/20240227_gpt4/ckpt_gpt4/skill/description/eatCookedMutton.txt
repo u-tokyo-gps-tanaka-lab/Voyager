@@ -1,0 +1,3 @@
+async function eatCookedMutton(bot) {
+    // The function is about making the bot eat cooked mutton by finding it in the inventory, equipping it in hand, and then consuming it.
+}

@@ -1,0 +1,3 @@
+async function craftIronSword(bot) {
+    // The function crafts an iron sword by first placing a crafting table at a specific position near the bot's entity. Then, it proceeds to craft an iron sword using iron ingots and sticks, resulting in the creation of one iron sword.
+}

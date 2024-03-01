@@ -1,0 +1,3 @@
+async function killCreeperWithShield(bot) {
+    // The function equips a shield to block a creeper's explosion, then locates the nearest creeper within a certain range. If a creeper is found, it proceeds to eliminate the creeper using a shield within a specified time frame, followed by a confirmation message of successfully killing the creeper.
+}

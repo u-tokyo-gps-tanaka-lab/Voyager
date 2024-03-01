@@ -1,0 +1,3 @@
+async function mineThreeIronOres(bot) {
+    // The function is about mining three iron ores using a stone pickaxe. It iterates three times to find and mine iron ore blocks within a certain distance. If an iron ore block is found, it equips the stone pickaxe and mines the block, then notifies the number of iron ores mined. If no iron ore is found within the search range, it stops the iteration and informs the absence of iron ore.
+}

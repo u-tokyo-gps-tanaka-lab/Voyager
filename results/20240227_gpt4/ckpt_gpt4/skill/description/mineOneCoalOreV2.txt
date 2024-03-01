@@ -1,0 +1,3 @@
+async function mineOneCoalOre(bot) {
+    // The function searches for a coal ore block within a certain distance. If a coal ore block is found, it equips a wooden pickaxe and mines the coal ore block. If no coal ore block is found, it notifies the player that there is no coal ore within the search range.
+}

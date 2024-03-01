@@ -1,0 +1,3 @@
+async function mineFiveCoalOres(bot) {
+    // The function is focused on mining five coal ores using a pickaxe. It first checks if the bot has a pickaxe, crafting one if it doesn't. The pickaxe is then equipped for mining. It iterates five times to explore the environment until finding a coal ore. Upon finding a coal ore, it mines it and informs the number of coal ores mined. If no coal ore is found within the exploration range, it notifies the absence of coal ore and stops the process.
+}

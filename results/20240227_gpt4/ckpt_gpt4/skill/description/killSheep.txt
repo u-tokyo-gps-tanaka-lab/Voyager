@@ -1,0 +1,3 @@
+async function killSheep(bot) {
+    // The function is about killing sheep in the game. It utilizes another function to target and attack sheep mobs within a range of 300 blocks.
+}

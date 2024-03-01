@@ -1,0 +1,3 @@
+async function craftDiamondPickaxe(bot) {
+    // The function crafts a diamond pickaxe by checking the inventory for required resources. If there are not enough diamonds or sticks, it gathers resources by exploring for diamond ore or crafting sticks. Once the necessary resources are available, it checks for a crafting table in the inventory and places one if not found. Finally, it crafts a diamond pickaxe and notifies the successful crafting process.
+}

@@ -1,0 +1,3 @@
+async function smeltRawIron(bot) {
+    // The function is about smelting raw iron using a furnace and coal as fuel. It first checks if the bot has a crafting table; if not, it mines birch logs to craft one. After placing the crafting table, it checks for a furnace; if not found, it mines cobblestone to craft a furnace. Then, it places the furnace and proceeds to smelt the raw iron with coal as fuel.
+}

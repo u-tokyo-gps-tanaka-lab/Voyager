@@ -1,0 +1,3 @@
+async function mineFiveCopperOres(bot) {
+    // The function equips an iron pickaxe and mines 5 copper ores by iterating through a loop that mines one copper ore at a time, sending a chat message after each successful mining operation to keep track of the progress.
+}

@@ -1,0 +1,3 @@
+async function killPig(bot) {
+    // The function equips an iron sword and then proceeds to kill a pig within a time limit of 300 milliseconds.
+}

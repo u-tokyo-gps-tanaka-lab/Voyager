@@ -1,0 +1,3 @@
+async function mineOneCoalOre(bot) {
+    // The function is about mining a single coal ore block. It explores the environment until finding a coal ore block within a specified range. Once the coal ore block is located, it mines the coal ore block and notifies the user that one coal ore has been mined. If no coal ore is found within the exploration range, it informs the user accordingly.
+}

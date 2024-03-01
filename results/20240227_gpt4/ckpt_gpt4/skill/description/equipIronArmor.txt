@@ -1,0 +1,3 @@
+async function equipIronArmor(bot) {
+    // The function equips the bot with iron armor by first finding and equipping the iron chestplate to the torso, then finding and equipping the iron leggings to the legs.
+}

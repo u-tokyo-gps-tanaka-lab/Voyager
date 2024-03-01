@@ -1,0 +1,3 @@
+async function equipIronHelmet(bot) {
+    // The function equips an iron helmet found in the bot's inventory on the head slot.
+}

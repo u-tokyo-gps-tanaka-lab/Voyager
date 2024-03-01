@@ -1,0 +1,3 @@
+async function craftWoodenTools(bot) {
+    // The function crafts wooden tools by checking the inventory for oak logs and a crafting table. If the crafting table is not available, it explores to find one. It then checks for oak logs and mines them if needed. After ensuring the necessary resources, it crafts a wooden pickaxe, axe, and shovel. Finally, it notifies the user that the wooden tools have been crafted.
+}

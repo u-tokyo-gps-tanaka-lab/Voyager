@@ -1,0 +1,3 @@
+async function craftIronHelmet(bot) {
+    // The function crafts an iron helmet by first ensuring the availability of a furnace and crafting table. If the bot lacks a furnace, it mines cobblestone to craft one, places it, and then smelts raw iron using coal as fuel. Similarly, if a crafting table is missing, it mines a birch log to craft one and places it. Finally, it crafts an iron helmet from the obtained iron ingots after setting up the necessary crafting infrastructure.
+}

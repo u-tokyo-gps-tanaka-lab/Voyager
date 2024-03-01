@@ -1,0 +1,3 @@
+async function killEnderman(bot) {
+    // The function is about attacking and killing the nearest Enderman by equipping an iron sword and continuously attacking it until it is dead within a specified time limit.
+}

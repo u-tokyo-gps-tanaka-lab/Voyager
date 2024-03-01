@@ -1,0 +1,3 @@
+async function mineObsidian(bot) {
+    // The function is about mining obsidian blocks after ensuring the availability of a diamond or netherite pickaxe. It checks for the presence of a water bucket and resources to craft it. If a diamond pickaxe is not available, it gathers resources by exploring to craft one. The bot then explores to locate a lava pool and mines 10 obsidian blocks from the pool. If the required resources are insufficient, it crafts the necessary items before proceeding with mining obsidian.
+}

@@ -1,0 +1,3 @@
+async function cookMutton(bot) {
+    // The function is about cooking mutton by placing a furnace at a specific position and then smelting the mutton using coal as fuel.
+}

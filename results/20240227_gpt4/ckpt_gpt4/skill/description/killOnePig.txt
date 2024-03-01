@@ -1,0 +1,3 @@
+async function killOnePig(bot) {
+    // The function equips an iron sword and kills a pig within a 300-block radius using the `killMob` function.
+}

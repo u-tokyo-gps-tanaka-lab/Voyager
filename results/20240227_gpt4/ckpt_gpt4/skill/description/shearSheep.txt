@@ -1,0 +1,3 @@
+async function shearSheep(bot) {
+    // The function is about shearing sheep in the game. It first checks if the bot has shears in the inventory; if not, it ensures there are enough iron ingots to craft shears. If iron is insufficient, it mines iron ore and smelts it into ingots. Then, it crafts shears and equips them. The bot explores the environment to find a sheep within a certain range and shears it upon locating the sheep.
+}

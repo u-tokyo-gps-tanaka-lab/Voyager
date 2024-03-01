@@ -1,0 +1,3 @@
+async function gatherSugarCane(bot) {
+    // The function gathers sugar cane by exploring and mining it if not already in the inventory, then crafts paper from the sugar cane by searching for a crafting table and crafting the paper, notifying the player at each step of the process.
+}

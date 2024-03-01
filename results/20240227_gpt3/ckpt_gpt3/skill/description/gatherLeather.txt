@@ -1,0 +1,3 @@
+async function gatherLeather(bot) {
+    // The function is about gathering leather by locating and killing cows nearby. It first checks for cows within a certain range, and if none are found, it explores the area randomly to find one. Once a cow is located, it proceeds to kill the cow to gather leather. If no cows are found nearby, it notifies the player that no cows were found in the vicinity.
+}

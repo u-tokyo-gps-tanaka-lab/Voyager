@@ -1,0 +1,3 @@
+async function mineFiveCoalOres(bot) {
+    // The function is designed to mine five coal ores by exploring the environment until a coal ore is found within a certain range. It iterates five times, attempting to locate and mine coal ores. If a coal ore is discovered, it is mined, and the bot announces the number of coal ores mined. If no coal ore is found within the exploration range, the bot notifies the absence of coal ore and stops the mining process.
+}

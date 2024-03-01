@@ -1,0 +1,3 @@
+async function mineOakLogs(bot) {
+    // The function is focused on mining 2 oak logs. It first checks if there are at least 2 oak logs in the inventory; if so, it mines them. If not, it explores the environment to find oak logs within a certain range. Once oak logs are located, it proceeds to mine 2 oak logs. If oak logs are not found nearby, it notifies the player that oak logs could not be found.
+}

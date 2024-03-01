@@ -1,0 +1,3 @@
+async function craftIronShovel(bot) {
+    // The function crafts an iron shovel by first placing a crafting table at a specific position near the bot's entity. Then, it proceeds to craft an iron shovel using an iron ingot and a stick, resulting in the creation of one iron shovel.
+}

@@ -1,0 +1,3 @@
+async function mineDiamonds(bot) {
+    // The function is focused on mining 5 diamond ore blocks. It checks if the bot has an iron or diamond pickaxe; if not, it crafts an iron pickaxe using oak planks and sticks. Then, it iterates through exploring to find diamond ore blocks randomly within a certain range. Once a diamond ore block is found, it mines it and repeats the process until 5 diamond ore blocks are mined, keeping track of the count. If unable to find diamond ore nearby, it stops the mining process and reports the total number of diamonds mined in the end.
+}
