@@ -5,11 +5,10 @@ from voyager import Voyager
 openai_api_key = "your_key"
 
 voyager = Voyager(
-    mc_port=56819,
+    mc_port="your_port",
     openai_api_key=openai_api_key,
-    env_request_timeout=100
+    env_request_timeout = 100
 )
 
 # start lifelong learning
 voyager.learn()
-
