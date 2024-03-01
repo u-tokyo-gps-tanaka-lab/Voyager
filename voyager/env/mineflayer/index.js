@@ -47,7 +47,6 @@ app.post("/start", (req, res) => {
         bot.on("mount", () => {
         bot.dismount();
     });
-    console.log("11111");
     bot.once("spawn", async () => {
         //bot.chat("/spectate bot")
         bot.removeListener("error", onConnectionFailed);
@@ -81,7 +80,6 @@ app.post("/start", (req, res) => {
                 }
             }
         }
-        bot.chat('33333', console.log);
         if (req.body.position) {
             bot.chat(
                 `/tp @s ${req.body.position.x} ${req.body.position.y} ${req.body.position.z}`
@@ -94,7 +92,6 @@ app.post("/start", (req, res) => {
         ) {
             bot.iron_pickaxe = true;
         }
-        console.log("44444");
         const { pathfinder } = require("mineflayer-pathfinder");
         const tool = require("mineflayer-tool").plugin;
         const collectBlock = require("mineflayer-collectblock").plugin;
@@ -105,7 +102,6 @@ app.post("/start", (req, res) => {
         bot.loadPlugin(collectBlock);
         bot.loadPlugin(pvp);
         bot.loadPlugin(minecraftHawkEye);
-        console.log("55555");
         // bot.collectBlock.movements.digCost = 0;
         // bot.collectBlock.movements.placeCost = 0;
 
@@ -133,7 +129,6 @@ app.post("/start", (req, res) => {
         bot.chat("/gamerule keepInventory true");
         bot.chat("/gamerule doDaylightCycle false");
     });
-    console.log('66666');
 
     function onConnectionFailed(e) {
         console.log(e);
