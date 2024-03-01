@@ -27,7 +27,7 @@ app.post("/start", (req, res) => {
     bot = null;
     console.log(req.body);
     bot = mineflayer.createBot({
-        host: "localhost", // minecraft server ip
+        host: '192.168.10.101', // minecraft server ip
         port: req.body.port, // minecraft server port
         username: "bot",
         disableChatSigning: true,
@@ -50,6 +50,7 @@ app.post("/start", (req, res) => {
     });
 
     bot.once("spawn", async () => {
+        //bot.chat("/spectate bot")
         bot.removeListener("error", onConnectionFailed);
         let itemTicks = 1;
         if (req.body.reset === "hard") {
